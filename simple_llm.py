@@ -5,7 +5,6 @@ from ibm_watsonx_ai import Credentials
 from langchain_ibm import WatsonxLLM
 
 # Specify the model and project settings 
-# (make sure the model you wish to use is commented out, and other models are commented)
 #model_id = 'mistralai/mistral-small-3-1-24b-instruct-2503' # Specify the Mixtral 8x7B model
 model_id = 'ibm/granite-3-3-8b-instruct' # Specify IBM's Granite 3.3 8B model
 
