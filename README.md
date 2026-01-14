@@ -42,6 +42,6 @@ The system retrieves relevant document chunks and generates answers using **IBM 
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/rag-watsonx-pdf-chatbot.git
+git clone https://github.com/vannyminanda888/rag-watsonx-pdf-chatbot.git
 cd rag-watsonx-pdf-chatbot
 pip install -r requirements.txt
