@@ -1,47 +1,81 @@
-# 📄 RAG-based PDF Question Answering with Watsonx & Gradio
+# Portfolio: RAG & Agentic AI Systems (IBM Professional Certificate) 🚀
 
-This project implements a **Retrieval-Augmented Generation (RAG)** system that allows users to upload a PDF document and ask natural language questions.  
-The system retrieves relevant document chunks and generates answers using **IBM watsonx foundation models**.
+This repository showcases my hands-on work and learning outcomes from the **IBM RAG and Agentic AI Professional Certificate**.  
+The goal of this portfolio is to demonstrate my ability to **design, reason about, and build agentic AI systems**—not just use prompts.
 
----
+I focus on **real-world patterns** such as retrieval pipelines, stateful agents, tool integration, and workflow orchestration.
 
-## 🚀 Features
-
-- Upload PDF documents
-- Ask questions about the document content
-- Retrieval-Augmented Generation (RAG)
-- Vector database using **Chroma**
-- Embeddings and LLM powered by **IBM watsonx**
-- Interactive UI using **Gradio**
+🔗 **Program Reference**  
+IBM RAG and Agentic AI Professional Certificate (Coursera)
 
 ---
 
-## 🧠 Architecture Overview
+## 🧠 Skills Demonstrated
 
-1. **PDF Loader** – Loads uploaded PDF
-2. **Text Splitter** – Splits text into overlapping chunks
-3. **Embedding Model** – Converts chunks to embeddings (watsonx)
-4. **Vector Store** – Stores embeddings using Chroma
-5. **Retriever** – Retrieves relevant chunks
-6. **LLM** – Generates answers using retrieved context
-7. **Gradio UI** – User interaction
-
----
-
-## 🛠 Tech Stack
-
-- Python
-- IBM watsonx.ai
-- LangChain
-- ChromaDB
-- Gradio
-- Hugging Face Hub
+- Retrieval-Augmented Generation (RAG) system design  
+- Agentic AI workflows with planning, tools, and state  
+- LangChain and LangGraph for multi-step reasoning  
+- Prompt engineering with clear task boundaries  
+- Debugging and improving agent behavior  
+- Translating concepts into interview-ready explanations  
 
 ---
 
-## 📦 Installation
+## 📂 What You’ll Find in This Repository
 
-```bash
-git clone https://github.com/vannyminanda888/rag-watsonx-pdf-chatbot.git
-cd rag-watsonx-pdf-chatbot
-pip install -r requirements.txt
+- 📓 Concept notes explained in plain language  
+- 🧪 Small experiments and demos  
+- 🧩 Agent workflows with state and conditional logic  
+- ⚠️ Common mistakes and lessons learned  
+- 🎯 One-line takeaways useful for interviews  
+
+Each section is structured to show **how I think**, not just what I built.
+
+---
+
+## 🎓 Coursework Covered
+
+- **Develop Generative AI Applications: Get Started**  
+- **Build RAG Applications: Get Started**
+- **Vector Databases for RAG**
+- **Advanced RAG with Databases and Retrievers**
+- **Build Multimodal GenAI**
+- **Fundamentals of Building AI Agents**  
+- **Agentic AI with LangChain and LangGraph**
+- **Agentic AI with LangGraph, CrewAI, AutoGen and BeeAI**
+
+Materials are organized by topic rather than by lecture, reflecting real-world problem solving.
+
+---
+
+## 🛠️ Current Status
+
+This is an **active portfolio**.  
+I continuously refine explanations, improve designs, and add new examples as I deepen my understanding of agentic systems.
+
+Planned additions:
+- End-to-end RAG mini-projects  
+- Multi-node LangGraph agent examples  
+- Design notes comparing chains vs graphs  
+- Evaluation and failure-case analysis  
+
+---
+
+## 🤝 Feedback & Collaboration
+
+Feedback is welcome.  
+If you notice areas for improvement or want to discuss design choices, feel free to open an issue or start a discussion.
+
+---
+
+## 🙏 Acknowledgements
+
+- **IBM** — for the curriculum and practical focus  
+- **Coursera** — for the learning platform  
+
+---
+
+**Career Focus:**  
+Building reliable, explainable, and stateful AI agents for real-world applications.
+
+Happy building and learning! 🎉
